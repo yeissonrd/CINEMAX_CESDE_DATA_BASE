@@ -42,4 +42,3 @@ left join tblFunciones f ON f.FuncionID = e.FuncionID
   left join tblFunciones F ON P. peliculaID = F.peliculaID
   left join tblSalas S ON S.SalaID = F.SalaID
 
-  SELECT *FROM tblPeliculas
